@@ -1,0 +1,22 @@
+# Virtual environments
+solution/venv_win/
+solution/.venv/
+solution/.venv_msys_backup/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Large data
+India_runs_data_and_ai_challenge/candidates.jsonl
+
+# Backup files
+repo-backup.bundle
+
+# VS Code
+.vscode/*.csv
+*.pdf
+*.json
+*.csv
+*.pdf
+*.json
