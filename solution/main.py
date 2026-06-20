@@ -26,3 +26,12 @@ def m():
     }
     with open(p_f,'w') as f:
         json.dump(d_p,f,indent=2)
+
+    p.r_p(o_f, c.d_w, c.b_w,g.retrieval_k, g.rerank_pool_k)
+
+    d=pd.read_csv(o_f)
+    print(d.head(10))
+    print(d['score'].describe())
+
+if __name__=="__main__":
+    m()
