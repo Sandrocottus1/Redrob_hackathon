@@ -47,3 +47,5 @@ def r_p(o_p,d_w,b_w,r_k,r_p_k):
     w_s(r, o_p)
     r_v(o_p)
 
+
+
