@@ -9,7 +9,7 @@ from . import config as cfg
 def e_j_s(t):#extract job skills
     return set(t.lower().split())
 
-def e_m_s(r_l):
+def e_m_s(r_l):#for making scores monotonic
     if not r_l: return r_l
     m_s=r_l[0][0]
     o=[]
@@ -32,13 +32,16 @@ def r_v(p):#run visualization
         pass
 
 def r_p(o_p,d_w,b_w,r_k,r_p_k):
-    p=dl.p_c_f(cfg.c_j,cfg.c_j_g)
-    c=dl.l_c(p)
-    j = dl.l_j_t(cfg.j_t)
-    j_s = e_j_s(j)
-    t = [tb.b_c_t(x) for x in c]
+    #loading candidate profiles
+    p=dl.p_c_f(cfg.c_j,cfg.c_j_g)#finding candidate files
+    c=dl.l_c(p)#loading candidate objects
+    j = dl.l_j_t(cfg.j_t)#loading jd
+    j_s = e_j_s(j)#extraction of job skills
+    t = [tb.b_c_t(x) for x in c]#convert candidate to text
+    #building search index
+
     h = rt.HybridRetriever(cfg.d_m)
-    h.fit(t)
+    h.fit(t)#created hybrid retriever
     i_l = h.retrieve(j, r_k, r_p_k, d_w, b_w)
     p_c = [c[i] for i in i_l]
     r = rk.r_c(p_c, j_s, cfg.f_w)
