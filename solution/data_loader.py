@@ -1,32 +1,19 @@
 import gzip
 import json
 from pathlib import Path
-from typing import Dict,List
+from typing import Dict, List
 
-def open_json_auto(path: Path):
-    if str(path).endswith(".gz"):
-        return gzip.open(path,"rt",encoding="utf-8")
-    return open(path,"r",encoding="utf-8")
+def o_j_a(p: Path):
+    return gzip.open(p, "rt", encoding="utf-8") if str(p).endswith(".gz") else open(p, "r", encoding="utf-8")
 
-def load_candidates(candidates_path: Path)->List[Dict]:
-    candidates: List[Dict] = []
-    with open_json_auto(candidates_path) as handle:
-        for line in handle:
-            text = line.strip()
-            if not text:
-                continue
-            candidates.append(json.loads(text))
-    return candidates
+def l_c(c_p: Path) -> List[Dict]:
+    with o_j_a(c_p) as h:
+        return [json.loads(x.strip()) for x in h if x.strip()]
 
-def load_jd_text(jd_path: Path) -> str:
-    return jd_path.read_text(encoding="utf-8").strip()
+def l_j_t(j_p: Path) -> str:
+    return j_p.read_text(encoding="utf-8").strip()
 
-
-def pick_candidates_file(jsonl_path: Path, jsonl_gz_path: Path) -> Path:
-    if jsonl_path.exists():
-        return jsonl_path
-    if jsonl_gz_path.exists():
-        return jsonl_gz_path
-    raise FileNotFoundError(
-        f"Neither candidates file exists: {jsonl_path} or {jsonl_gz_path}"
-    )
+def p_c_f(p1: Path, p2: Path) -> Path:
+    if p1.exists(): return p1
+    if p2.exists(): return p2
+    raise FileNotFoundError(f"Err: {p1}, {p2}")
