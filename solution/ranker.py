@@ -10,6 +10,7 @@ def r_c(c_l, j_s, f_w):
         s += f_w.get("beh", 0) * f.b_s(c)
         s += f_w.get("loc", 0) * f.l_f_s(c)
         s += f_w.get("not", 0) * f.n_p_s(c)
+        s+=f_w.get("sig",0)*f.r_s_score(c)
         s *= f.l_o_p(c)
         s *= f.t_p(c)
         r.append((s, c.get("candidate_id", ""), c))

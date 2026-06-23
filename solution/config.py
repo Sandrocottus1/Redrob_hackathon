@@ -19,10 +19,11 @@ d_w = 0.92
 b_w = 0.08
 
 f_w = {
-    "skl": 0.05,
-    "prd": 0.40,
-    "exp": 0.35,
-    "beh": 0.15,
-    "loc": 0.05,
-    "not": 0.00
+    "skl": 0.10,
+    "prd": 0.25,
+    "exp": 0.20,
+    "beh": 0.08,
+    "loc": 0.04,
+    "not": 0.03,
+    "sig": 0.30 #wighing redrob signal heavily
 }
