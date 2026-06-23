@@ -1,49 +1,31 @@
-from typing import Dict,List
+from typing import Dict, List
 
-def _skills_text(candidate: Dict, max_items: int = 25)->str:
-    skills=candidate.get("skills",[])
-    names: List[str]=[]
-    for item in skills:
-        name=item.get("name","").strip()
-        if name:
-            names.append(name)
-    return ", ".join(names[:max_items])
+def _s_t(c: Dict, m: int = 25) -> str:
+    return ", ".join([i.get("name", "").strip() for i in c.get("skills", []) if i.get("name", "").strip()][:m])
 
-""" ...to extract career work experience """
+def _c_t(c: Dict, m: int = 5) -> str:
+    return " | ".join([
+        f"{r.get('title', '')} at {r.get('company', '')}. Industry: {r.get('industry', '')}. Duration:{r.get('duration_months', 0)} months. {r.get('description', '')}"
+        for r in c.get("career_history", [])[:m]
+    ])
 
-def _career_text(candidate: Dict,  max_items: int =5)->str:
-    lines: List[str]=[]
-    for role in candidate.get("career_history",[])[:max_items]:
-        title=role.get("title","")
-        company=role.get("company","")
-        industry=role.get("industry","")
-        duration=role.get("duration_months",0)
-        description=role.get("description","")
-        lines.append(
-            f"{title} at {company}. Industry: {industry}. Duration:{duration} months. {description}"
-        )
-    return " | ".join(lines)
+def _e_t(c: Dict, m: int = 3) -> str:
+    return " | ".join([
+        f"{e.get('degree', '')} in {e.get('field_of_study', '')} from {e.get('institution', '')}"
+        for e in c.get("education", [])[:m]
+    ])
 
-def _education_text(candidate: Dict , max_items: int=3)->str:
-    lines: List[str]=[]
-    for edu in candidate.get("education",[])[:max_items]:
-        lines.append(
-            f"{edu.get('degree', '')} in {edu.get('field_of_study','')} from {edu.get('instruction','')}"
-        )
-    return " | ".join(lines)
+def b_c_t(c: Dict) -> str:
+    p = c.get("profile", {})
+    return "\n".join([
+        f"Current Title: {p.get('current_title', '')}",
+        f"Industry: {p.get('current_industry', '')}",
+        f"Experience Years: {p.get('years_of_experience', 0)}",
+        f"Headline: {p.get('headline', '')}",
+        f"Summary: {p.get('summary', '')}",
+        f"Skills: {_s_t(c)}",
+        f"Career: {_c_t(c)}",
+        f"Education: {_e_t(c)}"
+    ])
 
-def build_candidate_text(candidate: Dict) -> str:
-    profile = candidate.get("profile", {})
-
-    parts = [
-        f"Current Title: {profile.get('current_title', '')}",
-        f"Industry: {profile.get('current_industry', '')}",
-        f"Experience Years: {profile.get('years_of_experience', 0)}",
-        f"Headline: {profile.get('headline', '')}",
-        f"Summary: {profile.get('summary', '')}",
-        f"Skills: {_skills_text(candidate)}",
-        f"Career: {_career_text(candidate)}",
-        f"Education: {_education_text(candidate)}",
-    ]
-
-    return "\n".join(parts)
+build_candidate_text = b_c_t

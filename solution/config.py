@@ -3,10 +3,10 @@ from pathlib import Path
 r_d = Path(__file__).resolve().parent.parent
 d_d = r_d / "India_runs_data_and_ai_challenge"
 
-c_j = d_d / "candidates.jsonl"
-c_j_g = d_d / "candidates.jsonl.gz"
+c_j = d_d / "sample_candidates.json"
+c_j_g = d_d / "sample_candidates.json"
 j_t = d_d / "job_description_paragraphs.txt"
-v_s = d_d / "validate_subission.py"
+v_s = d_d / "validate_submission.py"
 d_o = r_d / "submission.csv"
 
 d_m = "sentence-transformers/all-MiniLM-L6-v2"
