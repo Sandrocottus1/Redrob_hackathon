@@ -19,11 +19,14 @@ d_w = 0.92
 b_w = 0.08
 
 f_w = {
-    "skl": 0.10,
-    "prd": 0.25,
-    "exp": 0.20,
-    "beh": 0.08,
-    "loc": 0.04,
-    "not": 0.03,
-    "sig": 0.30 #wighing redrob signal heavily
+    "skl": 0.05, # keyword skill overlap
+    "prd": 0.05,  # production keyword signals
+    "exp": 0.05, # years experience
+    "beh": 0.03,  # behavioural keywords
+    "loc": 0.02,# location
+    "not": 0.02,# notice period
+    "sem": 0.30,# semantic JD match (embedding cosine sim)
+    "ass": 0.25,    # actual assessment scores
+    "git": 0.13, # github activity
+    "eng": 0.10, #engagement
 }

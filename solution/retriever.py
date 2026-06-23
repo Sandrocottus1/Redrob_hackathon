@@ -34,4 +34,5 @@ class HybridRetriever:
         d_s[d_i[0]] = d_v[0]
         f = lambda x: (x - np.min(x)) / (np.ptp(x) + 1e-8)
         h_s = d_w * f(d_s) + b_w * f(b_s)
-        return np.argsort(h_s)[::-1][:r_p_k].tolist()
+        top_i=np.argsort(h_s)[::-1][:r_p_k].tolist()
+        return top_i , h_s

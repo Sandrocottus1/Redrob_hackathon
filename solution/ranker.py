@@ -13,6 +13,7 @@ def r_c(c_l, j_s, f_w):
         s+=f_w.get("sig",0)*f.r_s_score(c)
         s *= f.l_o_p(c)
         s *= f.t_p(c)
+        s *= f.title_relevance(c)
         r.append((s, c.get("candidate_id", ""), c))
     r.sort(key=lambda x: (-x[0], x[1]))
     return r
