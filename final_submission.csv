@@ -1,51 +1,51 @@
 candidate_id,rank,score,reasoning
-CAND_0000031,1,0.638626,Score:0.639. Title:Recommendation Systems Engineer. Exp:6.0yrs. Industry:Food Delivery.
-CAND_0000001,2,0.562859,Score:0.563. Title:Backend Engineer. Exp:6.9yrs. Industry:IT Services.
-CAND_0000010,3,0.407508,Score:0.408. Title:Data Engineer. Exp:4.6yrs. Industry:Transportation.
-CAND_0000032,4,0.393896,Score:0.394. Title:.NET Developer. Exp:8.1yrs. Industry:IT Services.
-CAND_0000044,5,0.380587,Score:0.381. Title:Frontend Engineer. Exp:5.7yrs. Industry:IT Services.
-CAND_0000015,6,0.362081,Score:0.362. Title:Software Engineer. Exp:5.4yrs. Industry:Fintech.
-CAND_0000007,7,0.354404,Score:0.354. Title:Civil Engineer. Exp:5.5yrs. Industry:IT Services.
-CAND_0000018,8,0.300439,Score:0.300. Title:Frontend Engineer. Exp:6.6yrs. Industry:Manufacturing.
-CAND_0000038,9,0.284455,Score:0.284. Title:Java Developer. Exp:6.7yrs. Industry:Food Delivery.
-CAND_0000014,10,0.2778,Score:0.278. Title:Frontend Engineer. Exp:8.4yrs. Industry:Food Delivery.
-CAND_0000023,11,0.27358,Score:0.274. Title:Software Engineer. Exp:3.7yrs. Industry:Manufacturing.
-CAND_0000013,12,0.273262,Score:0.273. Title:Civil Engineer. Exp:1.1yrs. Industry:Manufacturing.
-CAND_0000027,13,0.260174,Score:0.260. Title:DevOps Engineer. Exp:3.9yrs. Industry:IT Services.
-CAND_0000048,14,0.25947,Score:0.259. Title:Mobile Developer. Exp:9.7yrs. Industry:Fintech.
-CAND_0000011,15,0.222599,Score:0.223. Title:QA Engineer. Exp:2.0yrs. Industry:Software.
-CAND_0000025,16,0.21527,Score:0.215. Title:Frontend Engineer. Exp:7.3yrs. Industry:IT Services.
-CAND_0000043,17,0.20849,Score:0.208. Title:Cloud Engineer. Exp:8.3yrs. Industry:Food Delivery.
-CAND_0000026,18,0.203894,Score:0.204. Title:Graphic Designer. Exp:6.8yrs. Industry:Software.
-CAND_0000035,19,0.197549,Score:0.198. Title:Full Stack Developer. Exp:4.3yrs. Industry:Manufacturing.
-CAND_0000040,20,0.189387,Score:0.189. Title:Customer Support. Exp:1.6yrs. Industry:Manufacturing.
-CAND_0000009,21,0.174771,Score:0.175. Title:Mechanical Engineer. Exp:11.0yrs. Industry:Paper Products.
-CAND_0000004,22,0.173991,Score:0.174. Title:Marketing Manager. Exp:3.8yrs. Industry:Paper Products.
-CAND_0000033,23,0.16933,Score:0.169. Title:Graphic Designer. Exp:8.6yrs. Industry:IT Services.
-CAND_0000020,24,0.155783,Score:0.156. Title:Mechanical Engineer. Exp:6.3yrs. Industry:IT Services.
-CAND_0000005,25,0.152225,Score:0.152. Title:Accountant. Exp:11.0yrs. Industry:Manufacturing.
-CAND_0000019,26,0.140688,Score:0.141. Title:Project Manager. Exp:6.5yrs. Industry:Conglomerate.
-CAND_0000016,27,0.137238,Score:0.137. Title:Accountant. Exp:5.3yrs. Industry:IT Services.
-CAND_0000045,28,0.133672,Score:0.134. Title:Project Manager. Exp:12.2yrs. Industry:Software.
-CAND_0000006,29,0.12944,Score:0.129. Title:Business Analyst. Exp:6.0yrs. Industry:Conglomerate.
-CAND_0000042,30,0.128202,Score:0.128. Title:HR Manager. Exp:5.0yrs. Industry:Conglomerate.
-CAND_0000046,31,0.125415,Score:0.125. Title:Mechanical Engineer. Exp:7.8yrs. Industry:Software.
-CAND_0000041,32,0.121553,Score:0.122. Title:Operations Manager. Exp:13.7yrs. Industry:Software.
-CAND_0000039,33,0.121054,Score:0.121. Title:Marketing Manager. Exp:3.9yrs. Industry:Manufacturing.
-CAND_0000029,34,0.117485,Score:0.117. Title:Business Analyst. Exp:7.2yrs. Industry:IT Services.
-CAND_0000024,35,0.116793,Score:0.117. Title:HR Manager. Exp:7.5yrs. Industry:IT Services.
-CAND_0000003,36,0.104772,Score:0.105. Title:Customer Support. Exp:1.1yrs. Industry:IT Services.
-CAND_0000047,37,0.101454,Score:0.101. Title:Project Manager. Exp:2.4yrs. Industry:IT Services.
-CAND_0000037,38,0.1012,Score:0.101. Title:Business Analyst. Exp:14.3yrs. Industry:Manufacturing.
-CAND_0000028,39,0.097996,Score:0.098. Title:Operations Manager. Exp:1.1yrs. Industry:IT Services.
-CAND_0000036,40,0.095593,Score:0.096. Title:Project Manager. Exp:11.3yrs. Industry:Software.
-CAND_0000008,41,0.094698,Score:0.095. Title:Operations Manager. Exp:3.6yrs. Industry:IT Services.
-CAND_0000034,42,0.092999,Score:0.093. Title:Business Analyst. Exp:14.5yrs. Industry:IT Services.
-CAND_0000022,43,0.082921,Score:0.083. Title:Mechanical Engineer. Exp:1.1yrs. Industry:Software.
-CAND_0000049,44,0.078665,Score:0.079. Title:Mechanical Engineer. Exp:11.8yrs. Industry:Conglomerate.
-CAND_0000030,45,0.07669,Score:0.077. Title:Marketing Manager. Exp:10.0yrs. Industry:Paper Products.
-CAND_0000002,46,0.076683,Score:0.077. Title:Operations Manager. Exp:12.5yrs. Industry:IT Services.
-CAND_0000017,47,0.074086,Score:0.074. Title:Accountant. Exp:12.3yrs. Industry:IT Services.
-CAND_0000050,48,0.07035,Score:0.070. Title:Business Analyst. Exp:13.5yrs. Industry:IT Services.
-CAND_0000021,49,0.069638,Score:0.070. Title:Project Manager. Exp:14.5yrs. Industry:IT Services.
-CAND_0000012,50,0.065085,Score:0.065. Title:Operations Manager. Exp:1.1yrs. Industry:Manufacturing.
+CAND_0000010,1,0.456844,Score:0.457. Title:Data Engineer. Exp:4.6yrs. Industry:Transportation.
+CAND_0000001,2,0.424846,Score:0.425. Title:Backend Engineer. Exp:6.9yrs. Industry:IT Services.
+CAND_0000031,3,0.407175,Score:0.407. Title:Recommendation Systems Engineer. Exp:6.0yrs. Industry:Food Delivery.
+CAND_0000013,4,0.26553,Score:0.266. Title:Civil Engineer. Exp:1.1yrs. Industry:Manufacturing.
+CAND_0000014,5,0.25417,Score:0.254. Title:Frontend Engineer. Exp:8.4yrs. Industry:Food Delivery.
+CAND_0000044,6,0.247351,Score:0.247. Title:Frontend Engineer. Exp:5.7yrs. Industry:IT Services.
+CAND_0000027,7,0.237545,Score:0.238. Title:DevOps Engineer. Exp:3.9yrs. Industry:IT Services.
+CAND_0000023,8,0.222157,Score:0.222. Title:Software Engineer. Exp:3.7yrs. Industry:Manufacturing.
+CAND_0000011,9,0.210904,Score:0.211. Title:QA Engineer. Exp:2.0yrs. Industry:Software.
+CAND_0000018,10,0.206845,Score:0.207. Title:Frontend Engineer. Exp:6.6yrs. Industry:Manufacturing.
+CAND_0000007,11,0.205675,Score:0.206. Title:Civil Engineer. Exp:5.5yrs. Industry:IT Services.
+CAND_0000038,12,0.18056,Score:0.181. Title:Java Developer. Exp:6.7yrs. Industry:Food Delivery.
+CAND_0000003,13,0.175403,Score:0.175. Title:Customer Support. Exp:1.1yrs. Industry:IT Services.
+CAND_0000040,14,0.172138,Score:0.172. Title:Customer Support. Exp:1.6yrs. Industry:Manufacturing.
+CAND_0000032,15,0.165446,Score:0.165. Title:.NET Developer. Exp:8.1yrs. Industry:IT Services.
+CAND_0000035,16,0.164481,Score:0.164. Title:Full Stack Developer. Exp:4.3yrs. Industry:Manufacturing.
+CAND_0000025,17,0.159492,Score:0.159. Title:Frontend Engineer. Exp:7.3yrs. Industry:IT Services.
+CAND_0000015,18,0.141341,Score:0.141. Title:Software Engineer. Exp:5.4yrs. Industry:Fintech.
+CAND_0000048,19,0.121582,Score:0.122. Title:Mobile Developer. Exp:9.7yrs. Industry:Fintech.
+CAND_0000026,20,0.119189,Score:0.119. Title:Graphic Designer. Exp:6.8yrs. Industry:Software.
+CAND_0000004,21,0.11276,Score:0.113. Title:Marketing Manager. Exp:3.8yrs. Industry:Paper Products.
+CAND_0000006,22,0.111878,Score:0.112. Title:Business Analyst. Exp:6.0yrs. Industry:Conglomerate.
+CAND_0000020,23,0.109473,Score:0.109. Title:Mechanical Engineer. Exp:6.3yrs. Industry:IT Services.
+CAND_0000046,24,0.104267,Score:0.104. Title:Mechanical Engineer. Exp:7.8yrs. Industry:Software.
+CAND_0000033,25,0.103501,Score:0.104. Title:Graphic Designer. Exp:8.6yrs. Industry:IT Services.
+CAND_0000009,26,0.092734,Score:0.093. Title:Mechanical Engineer. Exp:11.0yrs. Industry:Paper Products.
+CAND_0000024,27,0.087153,Score:0.087. Title:HR Manager. Exp:7.5yrs. Industry:IT Services.
+CAND_0000043,28,0.084408,Score:0.084. Title:Cloud Engineer. Exp:8.3yrs. Industry:Food Delivery.
+CAND_0000045,29,0.074941,Score:0.075. Title:Project Manager. Exp:12.2yrs. Industry:Software.
+CAND_0000039,30,0.073673,Score:0.074. Title:Marketing Manager. Exp:3.9yrs. Industry:Manufacturing.
+CAND_0000041,31,0.072225,Score:0.072. Title:Operations Manager. Exp:13.7yrs. Industry:Software.
+CAND_0000019,32,0.069868,Score:0.070. Title:Project Manager. Exp:6.5yrs. Industry:Conglomerate.
+CAND_0000028,33,0.068047,Score:0.068. Title:Operations Manager. Exp:1.1yrs. Industry:IT Services.
+CAND_0000047,34,0.067773,Score:0.068. Title:Project Manager. Exp:2.4yrs. Industry:IT Services.
+CAND_0000050,35,0.062931,Score:0.063. Title:Business Analyst. Exp:13.5yrs. Industry:IT Services.
+CAND_0000008,36,0.060012,Score:0.060. Title:Operations Manager. Exp:3.6yrs. Industry:IT Services.
+CAND_0000022,37,0.05859,Score:0.059. Title:Mechanical Engineer. Exp:1.1yrs. Industry:Software.
+CAND_0000042,38,0.057465,Score:0.057. Title:HR Manager. Exp:5.0yrs. Industry:Conglomerate.
+CAND_0000029,39,0.057366,Score:0.057. Title:Business Analyst. Exp:7.2yrs. Industry:IT Services.
+CAND_0000016,40,0.057271,Score:0.057. Title:Accountant. Exp:5.3yrs. Industry:IT Services.
+CAND_0000005,41,0.055967,Score:0.056. Title:Accountant. Exp:11.0yrs. Industry:Manufacturing.
+CAND_0000012,42,0.054676,Score:0.055. Title:Operations Manager. Exp:1.1yrs. Industry:Manufacturing.
+CAND_0000037,43,0.054105,Score:0.054. Title:Business Analyst. Exp:14.3yrs. Industry:Manufacturing.
+CAND_0000036,44,0.046697,Score:0.047. Title:Project Manager. Exp:11.3yrs. Industry:Software.
+CAND_0000021,45,0.045858,Score:0.046. Title:Project Manager. Exp:14.5yrs. Industry:IT Services.
+CAND_0000049,46,0.045278,Score:0.045. Title:Mechanical Engineer. Exp:11.8yrs. Industry:Conglomerate.
+CAND_0000017,47,0.043621,Score:0.044. Title:Accountant. Exp:12.3yrs. Industry:IT Services.
+CAND_0000030,48,0.042342,Score:0.042. Title:Marketing Manager. Exp:10.0yrs. Industry:Paper Products.
+CAND_0000002,49,0.039055,Score:0.039. Title:Operations Manager. Exp:12.5yrs. Industry:IT Services.
+CAND_0000034,50,0.038474,Score:0.038. Title:Business Analyst. Exp:14.5yrs. Industry:IT Services.
