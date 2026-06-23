@@ -13,7 +13,7 @@ d_m = "sentence-transformers/all-MiniLM-L6-v2"
 
 r_k = 3000
 r_p_k = 1500
-f_t_k = 100
+f_t_k = 50
 
 d_w = 0.92
 b_w = 0.08

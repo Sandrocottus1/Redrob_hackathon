@@ -1,0 +1,18 @@
+{
+  "r_i": 1782197416,
+  "o_f": "final_submission.csv",
+  "mod": "sentence-transformers/all-MiniLM-L6-v2",
+  "r_k": 3000,
+  "rp_k": 1500,
+  "d_w": 0.92,
+  "b_w": 0.08,
+  "f_w": {
+    "skl": 0.1,
+    "prd": 0.25,
+    "exp": 0.2,
+    "beh": 0.08,
+    "loc": 0.04,
+    "not": 0.03,
+    "sig": 0.3
+  }
+}

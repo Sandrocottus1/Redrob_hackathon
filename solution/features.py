@@ -91,3 +91,6 @@ def t_p(c):
     t = str(c).lower()
     return 0.6 if "ai" in t and "machine learning" not in t \
         and "model" not in t and "python" not in t else 1.0
+
+def title_relevance(c):
+    

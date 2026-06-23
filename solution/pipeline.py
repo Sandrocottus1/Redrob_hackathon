@@ -19,11 +19,18 @@ def e_m_s(r_l):#for making scores monotonic
     return o
 
 def w_s(r_l,p):#write scores
-    with open(p,'w',newline='')as f:
-        w=csv.writer(f)
-        w.writerow(["candidate_id","score"])
-        for s,i,c in r_l:
-            w.writerow([i,s])
+    with open(p, 'w', newline='') as f:
+        w = csv.writer(f)
+        w.writerow(["candidate_id", "rank", "score", "reasoning"])
+        for rank, (s, i, c) in enumerate(r_l, start=1):
+            profile = c.get("profile", {})
+            reasoning = (
+                f"Score:{s:.3f}. "
+                f"Title:{profile.get('current_title','')}. "
+                f"Exp:{profile.get('years_of_experience',0)}yrs. "
+                f"Industry:{profile.get('current_industry','')}."
+            )
+            w.writerow([i, rank, round(s, 6), reasoning])
 
 def r_v(p):#run visualization
     try:
