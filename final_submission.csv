@@ -1,51 +1,101 @@
 candidate_id,rank,score,reasoning
-CAND_0000010,1,0.456844,Score:0.457. Title:Data Engineer. Exp:4.6yrs. Industry:Transportation.
-CAND_0000001,2,0.424846,Score:0.425. Title:Backend Engineer. Exp:6.9yrs. Industry:IT Services.
-CAND_0000031,3,0.407175,Score:0.407. Title:Recommendation Systems Engineer. Exp:6.0yrs. Industry:Food Delivery.
-CAND_0000013,4,0.26553,Score:0.266. Title:Civil Engineer. Exp:1.1yrs. Industry:Manufacturing.
-CAND_0000014,5,0.25417,Score:0.254. Title:Frontend Engineer. Exp:8.4yrs. Industry:Food Delivery.
-CAND_0000044,6,0.247351,Score:0.247. Title:Frontend Engineer. Exp:5.7yrs. Industry:IT Services.
-CAND_0000027,7,0.237545,Score:0.238. Title:DevOps Engineer. Exp:3.9yrs. Industry:IT Services.
-CAND_0000023,8,0.222157,Score:0.222. Title:Software Engineer. Exp:3.7yrs. Industry:Manufacturing.
-CAND_0000011,9,0.210904,Score:0.211. Title:QA Engineer. Exp:2.0yrs. Industry:Software.
-CAND_0000018,10,0.206845,Score:0.207. Title:Frontend Engineer. Exp:6.6yrs. Industry:Manufacturing.
-CAND_0000007,11,0.205675,Score:0.206. Title:Civil Engineer. Exp:5.5yrs. Industry:IT Services.
-CAND_0000038,12,0.18056,Score:0.181. Title:Java Developer. Exp:6.7yrs. Industry:Food Delivery.
-CAND_0000003,13,0.175403,Score:0.175. Title:Customer Support. Exp:1.1yrs. Industry:IT Services.
-CAND_0000040,14,0.172138,Score:0.172. Title:Customer Support. Exp:1.6yrs. Industry:Manufacturing.
-CAND_0000032,15,0.165446,Score:0.165. Title:.NET Developer. Exp:8.1yrs. Industry:IT Services.
-CAND_0000035,16,0.164481,Score:0.164. Title:Full Stack Developer. Exp:4.3yrs. Industry:Manufacturing.
-CAND_0000025,17,0.159492,Score:0.159. Title:Frontend Engineer. Exp:7.3yrs. Industry:IT Services.
-CAND_0000015,18,0.141341,Score:0.141. Title:Software Engineer. Exp:5.4yrs. Industry:Fintech.
-CAND_0000048,19,0.121582,Score:0.122. Title:Mobile Developer. Exp:9.7yrs. Industry:Fintech.
-CAND_0000026,20,0.119189,Score:0.119. Title:Graphic Designer. Exp:6.8yrs. Industry:Software.
-CAND_0000004,21,0.11276,Score:0.113. Title:Marketing Manager. Exp:3.8yrs. Industry:Paper Products.
-CAND_0000006,22,0.111878,Score:0.112. Title:Business Analyst. Exp:6.0yrs. Industry:Conglomerate.
-CAND_0000020,23,0.109473,Score:0.109. Title:Mechanical Engineer. Exp:6.3yrs. Industry:IT Services.
-CAND_0000046,24,0.104267,Score:0.104. Title:Mechanical Engineer. Exp:7.8yrs. Industry:Software.
-CAND_0000033,25,0.103501,Score:0.104. Title:Graphic Designer. Exp:8.6yrs. Industry:IT Services.
-CAND_0000009,26,0.092734,Score:0.093. Title:Mechanical Engineer. Exp:11.0yrs. Industry:Paper Products.
-CAND_0000024,27,0.087153,Score:0.087. Title:HR Manager. Exp:7.5yrs. Industry:IT Services.
-CAND_0000043,28,0.084408,Score:0.084. Title:Cloud Engineer. Exp:8.3yrs. Industry:Food Delivery.
-CAND_0000045,29,0.074941,Score:0.075. Title:Project Manager. Exp:12.2yrs. Industry:Software.
-CAND_0000039,30,0.073673,Score:0.074. Title:Marketing Manager. Exp:3.9yrs. Industry:Manufacturing.
-CAND_0000041,31,0.072225,Score:0.072. Title:Operations Manager. Exp:13.7yrs. Industry:Software.
-CAND_0000019,32,0.069868,Score:0.070. Title:Project Manager. Exp:6.5yrs. Industry:Conglomerate.
-CAND_0000028,33,0.068047,Score:0.068. Title:Operations Manager. Exp:1.1yrs. Industry:IT Services.
-CAND_0000047,34,0.067773,Score:0.068. Title:Project Manager. Exp:2.4yrs. Industry:IT Services.
-CAND_0000050,35,0.062931,Score:0.063. Title:Business Analyst. Exp:13.5yrs. Industry:IT Services.
-CAND_0000008,36,0.060012,Score:0.060. Title:Operations Manager. Exp:3.6yrs. Industry:IT Services.
-CAND_0000022,37,0.05859,Score:0.059. Title:Mechanical Engineer. Exp:1.1yrs. Industry:Software.
-CAND_0000042,38,0.057465,Score:0.057. Title:HR Manager. Exp:5.0yrs. Industry:Conglomerate.
-CAND_0000029,39,0.057366,Score:0.057. Title:Business Analyst. Exp:7.2yrs. Industry:IT Services.
-CAND_0000016,40,0.057271,Score:0.057. Title:Accountant. Exp:5.3yrs. Industry:IT Services.
-CAND_0000005,41,0.055967,Score:0.056. Title:Accountant. Exp:11.0yrs. Industry:Manufacturing.
-CAND_0000012,42,0.054676,Score:0.055. Title:Operations Manager. Exp:1.1yrs. Industry:Manufacturing.
-CAND_0000037,43,0.054105,Score:0.054. Title:Business Analyst. Exp:14.3yrs. Industry:Manufacturing.
-CAND_0000036,44,0.046697,Score:0.047. Title:Project Manager. Exp:11.3yrs. Industry:Software.
-CAND_0000021,45,0.045858,Score:0.046. Title:Project Manager. Exp:14.5yrs. Industry:IT Services.
-CAND_0000049,46,0.045278,Score:0.045. Title:Mechanical Engineer. Exp:11.8yrs. Industry:Conglomerate.
-CAND_0000017,47,0.043621,Score:0.044. Title:Accountant. Exp:12.3yrs. Industry:IT Services.
-CAND_0000030,48,0.042342,Score:0.042. Title:Marketing Manager. Exp:10.0yrs. Industry:Paper Products.
-CAND_0000002,49,0.039055,Score:0.039. Title:Operations Manager. Exp:12.5yrs. Industry:IT Services.
-CAND_0000034,50,0.038474,Score:0.038. Title:Business Analyst. Exp:14.5yrs. Industry:IT Services.
+CAND_0028793,1,0.80051,"Search Engineer with 7 years of experience in Internet; key skills: SAP, Kubeflow, Embeddings; scored 88/100 on Embeddings assessment; GitHub activity 83/100; 3/3 roles in tech. Concerns: notice period 120 days."
+CAND_0070485,2,0.641425,"Search Engineer with 6 years of experience in Voice AI; key skills: Kubernetes, Haystack, PEFT; scored 66/100 on Deep Learning assessment; GitHub activity 26/100; 2/2 roles in tech. Concerns: notice period 120 days."
+CAND_0041568,3,0.593497,"Search Engineer with 5 years of experience in Conversational AI; key skills: PEFT, Weaviate, Angular; scored 85/100 on Feature Engineering assessment; 3/3 roles in tech. Concerns: notice period 90 days."
+CAND_0051615,4,0.590276,"Search Engineer with 4 years of experience in Internet; key skills: RAG, HTML, Data Science; GitHub activity 94/100; 2/2 roles in tech. Strong engagement and tech background align with JD."
+CAND_0053591,5,0.582877,"AI Engineer with 5 years of experience in Transportation; key skills: LangChain, Reinforcement Learning, Embeddings; scored 90/100 on LangChain assessment; GitHub activity 75/100; 2/2 roles in tech. Strong engagement and tech background align with JD."
+CAND_0005649,6,0.564363,"Senior Data Scientist with 7 years of experience in AI/ML; key skills: Haystack, Redis, Prompt Engineering; GitHub activity 80/100; 4/4 roles in tech. Concerns: notice period 90 days."
+CAND_0007460,7,0.477603,"AI Engineer with 4 years of experience in Software; key skills: LangChain, PEFT, Embeddings; scored 65/100 on PEFT assessment; GitHub activity 53/100; 1/1 roles in tech. Concerns: notice period 120 days."
+CAND_0087630,8,0.467925,"AI Engineer with 7 years of experience in EdTech; key skills: Data Science, GANs, ASR; scored 78/100 on pgvector assessment; GitHub activity 23/100; 3/3 roles in tech. Concerns: not marked open to work."
+CAND_0058575,9,0.334767,"AI Engineer with 5 years of experience in AI/ML; key skills: MLOps, Machine Learning, LlamaIndex; GitHub activity 34/100; 3/3 roles in tech. Concerns: notice period 90 days."
+CAND_0020195,10,0.320434,"Java Developer with 9 years of experience in Manufacturing; key skills: React, Redux, Content Writing; scored 68/100 on OpenCV assessment; 4/4 roles in tech. Concerns: not marked open to work, notice period 90 days, seniority may exceed fresher role scope."
+CAND_0092920,11,0.103989,"Mechanical Engineer with 5 years of experience in Software; key skills: Apache Flink, React, Java; scored 67/100 on YOLO assessment; 1/3 roles in tech. Strong engagement and tech background align with JD."
+CAND_0092781,12,0.093605,"Civil Engineer with 7 years of experience in Software; key skills: TypeScript, Angular, Redis; scored 70/100 on Statistical Modeling assessment; GitHub activity 38/100; 1/3 roles in tech. Concerns: not marked open to work, notice period 90 days."
+CAND_0001565,13,0.083215,"Civil Engineer with 4 years of experience in Software; key skills: Data Science, JavaScript, Node.js; scored 35/100 on Data Science assessment; 1/2 roles in tech. Concerns: not marked open to work, notice period 120 days, interview completion rate 33%."
+CAND_0005181,14,0.078019,"Mechanical Engineer with 5 years of experience in Conglomerate; key skills: Snowflake, Airflow, CI/CD; scored 23/100 on OpenCV assessment; GitHub activity 4/100; 2/4 roles in tech. Concerns: not marked open to work."
+CAND_0031803,15,0.076469,"Civil Engineer with 6 years of experience in Manufacturing; key skills: Angular, gRPC, Redux; GitHub activity 12/100; 2/4 roles in tech. Concerns: not marked open to work."
+CAND_0003515,16,0.076361,"Mechanical Engineer with 5 years of experience in IT Services; key skills: Reinforcement Learning, Photoshop, Scrum; scored 62/100 on Reinforcement Learning assessment; 3/3 roles in tech. Concerns: not marked open to work, notice period 90 days, interview completion rate 36%."
+CAND_0066301,17,0.076352,"Operations Manager with 5 years of experience in Manufacturing; key skills: Illustrator, Rust, Next.js; scored 61/100 on YOLO assessment; 1/2 roles in tech. Concerns: not marked open to work, notice period 120 days."
+CAND_0063254,18,0.074892,"Mechanical Engineer with 9 years of experience in Software; key skills: Accounting, Docker, Rust; scored 23/100 on Speech Recognition assessment; GitHub activity 48/100; 3/4 roles in tech. Concerns: notice period 90 days, seniority may exceed fresher role scope."
+CAND_0060565,19,0.07399,"Mechanical Engineer with 5 years of experience in Software; key skills: ETL, Hadoop, Java; GitHub activity 19/100; 1/3 roles in tech. Concerns: not marked open to work, notice period 150 days."
+CAND_0083168,20,0.072437,"Civil Engineer with 1 years of experience in Software; key skills: Apache Beam, Kubernetes, Salesforce CRM; scored 63/100 on Data Science assessment; 1/1 roles in tech. Concerns: notice period 90 days."
+CAND_0032471,21,0.072034,"Civil Engineer with 6 years of experience in Software; key skills: GCP, Statistical Modeling, JavaScript; scored 71/100 on Statistical Modeling assessment; GitHub activity 5/100; 1/4 roles in tech. Concerns: not marked open to work, notice period 120 days, interview completion rate 41%."
+CAND_0013950,22,0.071238,"Mechanical Engineer with 4 years of experience in IT Services; key skills: Redis, Spark, TTS; scored 44/100 on TTS assessment; 1/1 roles in tech. Concerns: interview completion rate 49%."
+CAND_0027487,23,0.067887,"Mechanical Engineer with 6 years of experience in Software; key skills: PostgreSQL, Project Management, Azure; 3/4 roles in tech. Concerns: notice period 120 days."
+CAND_0010429,24,0.067869,"Civil Engineer with 10 years of experience in IT Services; key skills: Figma, SQL, Feature Engineering; scored 68/100 on Feature Engineering assessment; 2/4 roles in tech. Concerns: not marked open to work."
+CAND_0088549,25,0.067671,"Mechanical Engineer with 9 years of experience in Software; key skills: SEO, Redux, MongoDB; GitHub activity 49/100; 2/4 roles in tech. Strong engagement and tech background align with JD."
+CAND_0075760,26,0.067275,"Mechanical Engineer with 6 years of experience in IT Services; key skills: Excel, Apache Beam, PowerPoint; 1/3 roles in tech. Concerns: not marked open to work, interview completion rate 49%."
+CAND_0087425,27,0.066701,"Civil Engineer with 6 years of experience in Software; key skills: Content Writing, REST APIs, Excel; 2/3 roles in tech. Concerns: not marked open to work."
+CAND_0068560,28,0.066403,"Mechanical Engineer with 3 years of experience in Software; key skills: CSS, MLflow, Databricks; scored 37/100 on MLflow assessment; 1/2 roles in tech. Concerns: not marked open to work."
+CAND_0099902,29,0.066228,"Mechanical Engineer with 5 years of experience in Software; key skills: BentoML, Redux, Hadoop; 1/2 roles in tech. Concerns: not marked open to work, notice period 90 days."
+CAND_0007129,30,0.066197,"Civil Engineer with 6 years of experience in Manufacturing; key skills: Vue.js, Terraform, GraphQL; 2/3 roles in tech. Concerns: not marked open to work."
+CAND_0024733,31,0.065861,"Mechanical Engineer with 7 years of experience in Conglomerate; key skills: Spark, Marketing, Angular; 2/5 roles in tech. Concerns: not marked open to work."
+CAND_0084603,32,0.06537,"Civil Engineer with 6 years of experience in Paper Products; key skills: Apache Beam, SQL, Next.js; 1/4 roles in tech. Concerns: not marked open to work."
+CAND_0022004,33,0.06513,"Civil Engineer with 8 years of experience in IT Services; key skills: SQL, Java, Databricks; scored 20/100 on OpenCV assessment; GitHub activity 31/100; 2/5 roles in tech. Concerns: not marked open to work, notice period 90 days."
+CAND_0075161,34,0.064377,"Civil Engineer with 5 years of experience in Manufacturing; key skills: Six Sigma, Redux, gRPC; 1/2 roles in tech. Concerns: notice period 90 days, interview completion rate 42%."
+CAND_0043311,35,0.064178,"Mechanical Engineer with 9 years of experience in Software; key skills: Illustrator, SAP, Salesforce CRM; GitHub activity 22/100; 5/5 roles in tech. Concerns: not marked open to work, notice period 90 days."
+CAND_0086604,36,0.063894,"Mechanical Engineer with 6 years of experience in Manufacturing; key skills: Vue.js, gRPC, Agile; scored 47/100 on Forecasting assessment; 2/2 roles in tech. Concerns: not marked open to work, notice period 150 days."
+CAND_0013090,37,0.062563,"Civil Engineer with 3 years of experience in Paper Products; key skills: Docker, Spark, Illustrator; GitHub activity 41/100; 1/2 roles in tech. Strong engagement and tech background align with JD."
+CAND_0067020,38,0.061272,"Operations Manager with 8 years of experience in Software; key skills: Redis, ETL, JavaScript; scored 52/100 on BentoML assessment; GitHub activity 44/100; 1/4 roles in tech. Concerns: not marked open to work, notice period 90 days."
+CAND_0055686,39,0.061092,"Civil Engineer with 5 years of experience in IT Services; key skills: Apache Beam, Spark, Java; scored 40/100 on Forecasting assessment; 2/2 roles in tech. Concerns: notice period 150 days."
+CAND_0078349,40,0.060955,"Mechanical Engineer with 1 years of experience in Software; key skills: Angular, FastAPI, GCP; scored 34/100 on BentoML assessment; GitHub activity 36/100; 1/1 roles in tech. Concerns: not marked open to work."
+CAND_0066878,41,0.060945,"HR Manager with 7 years of experience in Software; key skills: Vue.js, Marketing, Photoshop; scored 62/100 on MLflow assessment; 1/4 roles in tech. Concerns: not marked open to work, notice period 150 days."
+CAND_0044906,42,0.059886,"Civil Engineer with 8 years of experience in Software; key skills: SAP, Figma, Accounting; GitHub activity 19/100; 2/4 roles in tech. Concerns: notice period 150 days."
+CAND_0008986,43,0.059505,"Civil Engineer with 6 years of experience in Manufacturing; key skills: Kafka, Redux, Data Pipelines; GitHub activity 11/100; 1/3 roles in tech. Concerns: not marked open to work, notice period 90 days."
+CAND_0048589,44,0.05937,"Civil Engineer with 6 years of experience in Manufacturing; key skills: Hadoop, Salesforce CRM, React; 1/4 roles in tech. Strong engagement and tech background align with JD."
+CAND_0091446,45,0.059287,"Mechanical Engineer with 9 years of experience in IT Services; key skills: Spark, SAP, Databricks; GitHub activity 31/100; 1/4 roles in tech. Concerns: not marked open to work."
+CAND_0042890,46,0.058844,"Civil Engineer with 9 years of experience in IT Services; key skills: PostgreSQL, Rust, Django; 3/4 roles in tech. Concerns: notice period 90 days."
+CAND_0041029,47,0.058268,"HR Manager with 6 years of experience in Paper Products; key skills: Azure, TypeScript, Figma; scored 34/100 on ASR assessment. Concerns: not marked open to work."
+CAND_0008370,48,0.057537,"Civil Engineer with 6 years of experience in IT Services; key skills: ETL, MongoDB, SEO; 1/3 roles in tech. Concerns: not marked open to work, notice period 120 days."
+CAND_0034298,49,0.057329,"Mechanical Engineer with 5 years of experience in Software; key skills: SAP, Go, Redux; scored 50/100 on Forecasting assessment; 1/2 roles in tech. Concerns: not marked open to work, notice period 150 days."
+CAND_0011745,50,0.056959,"Mechanical Engineer with 6 years of experience in Conglomerate; key skills: Content Writing, Kubeflow, Apache Flink; scored 33/100 on Kubeflow assessment; GitHub activity 12/100; 2/2 roles in tech. Concerns: notice period 120 days."
+CAND_0078121,51,0.056862,"Civil Engineer with 7 years of experience in Software; key skills: Hadoop, dbt, Java; scored 43/100 on Feature Engineering assessment; 2/2 roles in tech. Concerns: not marked open to work, notice period 150 days."
+CAND_0065471,52,0.056372,"Mechanical Engineer with 5 years of experience in Software; key skills: Apache Flink, Sales, TypeScript; scored 58/100 on Object Detection assessment; 1/2 roles in tech. Concerns: not marked open to work, notice period 120 days."
+CAND_0032785,53,0.056214,"Civil Engineer with 7 years of experience in Software; key skills: Databricks, SQL, dbt; 1/3 roles in tech. Concerns: not marked open to work."
+CAND_0039244,54,0.056146,"Civil Engineer with 7 years of experience in IT Services; key skills: Terraform, SAP, Scrum; GitHub activity 11/100; 1/5 roles in tech. Concerns: not marked open to work, notice period 120 days."
+CAND_0067439,55,0.055748,"Civil Engineer with 8 years of experience in Software; key skills: Data Pipelines, Apache Flink, CI/CD; 3/4 roles in tech. Concerns: not marked open to work, notice period 150 days."
+CAND_0015367,56,0.05555,"Civil Engineer with 1 years of experience in Software; key skills: dbt, Illustrator, CI/CD; 1/1 roles in tech. Concerns: notice period 90 days."
+CAND_0015800,57,0.055256,"Civil Engineer with 10 years of experience in Software; key skills: Java, Flask, Kubeflow; GitHub activity 45/100; 3/4 roles in tech. Concerns: interview completion rate 43%."
+CAND_0095210,58,0.055225,"Project Manager with 5 years of experience in Software; key skills: Salesforce CRM, Data Pipelines, SEO; GitHub activity 0/100; 1/2 roles in tech. Concerns: not marked open to work."
+CAND_0037933,59,0.055061,"Civil Engineer with 5 years of experience in IT Services; key skills: React, Illustrator, Scrum; GitHub activity 32/100; 1/3 roles in tech. Concerns: not marked open to work, notice period 90 days."
+CAND_0018062,60,0.054895,"HR Manager with 9 years of experience in Software; key skills: Data Science, Docker, Vue.js; scored 57/100 on Data Science assessment; GitHub activity 33/100; 1/5 roles in tech. Concerns: not marked open to work, notice period 90 days."
+CAND_0026465,61,0.054686,"Mechanical Engineer with 8 years of experience in Manufacturing; key skills: PostgreSQL, Microservices, Java; GitHub activity 9/100; 1/5 roles in tech. Strong engagement and tech background align with JD."
+CAND_0082803,62,0.054426,"HR Manager with 2 years of experience in Software; key skills: OpenCV, Data Pipelines, GraphQL; scored 68/100 on OpenCV assessment. Concerns: notice period 90 days."
+CAND_0051474,63,0.053905,"Mechanical Engineer with 3 years of experience in Software; key skills: Spark, PostgreSQL, Salesforce CRM; GitHub activity 12/100; 1/1 roles in tech. Concerns: not marked open to work."
+CAND_0030104,64,0.053752,"Civil Engineer with 6 years of experience in IT Services; key skills: Redux, Apache Flink, CI/CD; 1/3 roles in tech. Concerns: not marked open to work, notice period 120 days."
+CAND_0005357,65,0.053153,"Operations Manager with 2 years of experience in Software; key skills: CSS, JavaScript, Hadoop; scored 67/100 on Image Classification assessment. Concerns: notice period 120 days."
+CAND_0096466,66,0.053141,"HR Manager with 7 years of experience in Software; key skills: BentoML, AWS, Kafka; scored 58/100 on BentoML assessment; GitHub activity 33/100; 1/4 roles in tech. Concerns: not marked open to work."
+CAND_0053053,67,0.053121,"Civil Engineer with 2 years of experience in Software; key skills: Java, TypeScript, SEO; 2/2 roles in tech. Concerns: not marked open to work."
+CAND_0055063,68,0.053071,"Operations Manager with 9 years of experience in Software; key skills: Angular, SQL, Microservices; scored 50/100 on ASR assessment; 1/4 roles in tech. Concerns: notice period 150 days, interview completion rate 34%."
+CAND_0072806,69,0.052946,"Graphic Designer with 9 years of experience in Software; key skills: dbt, Weights & Biases, Rust; scored 66/100 on Weights & Biases assessment. Concerns: not marked open to work."
+CAND_0042259,70,0.052512,"Mechanical Engineer with 10 years of experience in IT Services; key skills: PowerPoint, Redux, Java; 2/4 roles in tech. Concerns: not marked open to work."
+CAND_0085759,71,0.05244,"Mechanical Engineer with 9 years of experience in IT Services; key skills: Apache Flink, Redux, PowerPoint; 2/4 roles in tech. Concerns: interview completion rate 38%."
+CAND_0057180,72,0.052285,"Civil Engineer with 2 years of experience in Software; key skills: HTML, Java, Agile; 1/1 roles in tech. Concerns: not marked open to work."
+CAND_0050822,73,0.052144,"Marketing Manager with 1 years of experience in Conglomerate; key skills: Spring Boot, Redis, Spark; scored 54/100 on Speech Recognition assessment; GitHub activity 20/100. Concerns: not marked open to work, notice period 120 days."
+CAND_0034403,74,0.052131,"Civil Engineer with 11 years of experience in Software; key skills: Time Series, BigQuery, Rust; scored 44/100 on Time Series assessment; 3/5 roles in tech. Concerns: not marked open to work, interview completion rate 36%."
+CAND_0043626,75,0.052022,"HR Manager with 9 years of experience in Conglomerate; key skills: Excel, AWS, Airflow; scored 57/100 on YOLO assessment; GitHub activity 11/100; 1/4 roles in tech. Concerns: notice period 150 days."
+CAND_0070067,76,0.051978,"Mechanical Engineer with 9 years of experience in Software; key skills: Redis, Spark, Apache Beam; 2/4 roles in tech. Concerns: not marked open to work, notice period 90 days, interview completion rate 31%."
+CAND_0084929,77,0.051936,"Civil Engineer with 7 years of experience in IT Services; key skills: Tailwind, ASR, Flask; scored 62/100 on ASR assessment; 2/3 roles in tech. Concerns: not marked open to work, notice period 150 days."
+CAND_0020974,78,0.05179,"Civil Engineer with 1 years of experience in Software; key skills: Vue.js, Databricks, Accounting; 1/1 roles in tech. Concerns: not marked open to work, interview completion rate 30%."
+CAND_0096233,79,0.051493,"Civil Engineer with 9 years of experience in Paper Products; key skills: Kafka, Scrum, TypeScript; 2/4 roles in tech. Concerns: not marked open to work."
+CAND_0027086,80,0.051002,"HR Manager with 6 years of experience in IT Services; key skills: Terraform, ETL, Apache Flink; 1/4 roles in tech. Concerns: not marked open to work."
+CAND_0030386,81,0.050428,"Civil Engineer with 4 years of experience in Conglomerate; key skills: Spark, Vue.js, HTML; 1/2 roles in tech. Concerns: notice period 150 days, interview completion rate 31%."
+CAND_0089158,82,0.050274,"Mechanical Engineer with 5 years of experience in Software; key skills: Databricks, Redux, REST APIs; scored 30/100 on Forecasting assessment; 1/2 roles in tech. Concerns: notice period 90 days."
+CAND_0071919,83,0.050141,"Mechanical Engineer with 9 years of experience in IT Services; key skills: CSS, Redux, Spark; scored 49/100 on ASR assessment; GitHub activity 36/100; 2/4 roles in tech. Concerns: not marked open to work."
+CAND_0084844,84,0.050079,"Mechanical Engineer with 6 years of experience in Software; key skills: Figma, Hadoop, CI/CD; scored 20/100 on Data Science assessment; 2/3 roles in tech. Concerns: not marked open to work, notice period 90 days."
+CAND_0016178,85,0.049986,"Sales Executive with 1 years of experience in Software; key skills: Vue.js, PostgreSQL, Salesforce CRM; scored 67/100 on Feature Engineering assessment; GitHub activity 12/100. Concerns: not marked open to work, notice period 90 days, interview completion rate 45%."
+CAND_0097936,86,0.049962,"Civil Engineer with 4 years of experience in Software; key skills: Next.js, Go, Terraform; GitHub activity 4/100; 1/2 roles in tech. Concerns: interview completion rate 33%."
+CAND_0030618,87,0.049548,"Civil Engineer with 10 years of experience in IT Services; key skills: Apache Flink, Marketing, Redis; 2/4 roles in tech. Concerns: not marked open to work, interview completion rate 40%."
+CAND_0091170,88,0.049484,"Operations Manager with 8 years of experience in Paper Products; key skills: Flask, Apache Flink, AWS; GitHub activity 45/100; 1/4 roles in tech. Concerns: not marked open to work, notice period 150 days."
+CAND_0054412,89,0.049295,"Civil Engineer with 6 years of experience in IT Services; key skills: Go, Tally, SQL; GitHub activity 47/100; 1/2 roles in tech. Concerns: not marked open to work, notice period 150 days."
+CAND_0070305,90,0.049263,"HR Manager with 3 years of experience in IT Services; key skills: JavaScript, Airflow, Vue.js; 1/2 roles in tech. Concerns: interview completion rate 34%."
+CAND_0021427,91,0.049014,"HR Manager with 6 years of experience in Manufacturing; key skills: Sales, PostgreSQL, Apache Flink. Concerns: not marked open to work."
+CAND_0079407,92,0.048974,"Project Manager with 7 years of experience in Manufacturing; key skills: Salesforce CRM, Angular, Apache Flink; scored 69/100 on TTS assessment; GitHub activity 4/100. Concerns: not marked open to work, interview completion rate 35%."
+CAND_0056956,93,0.048834,"Civil Engineer with 2 years of experience in Software; key skills: Airflow, Next.js, Go; GitHub activity 4/100; 1/2 roles in tech. Concerns: not marked open to work, notice period 120 days, interview completion rate 46%."
+CAND_0048818,94,0.048808,"Mechanical Engineer with 9 years of experience in Software; key skills: Project Management, JavaScript, Java; 1/4 roles in tech. Concerns: not marked open to work, notice period 150 days."
+CAND_0059179,95,0.048708,"Mechanical Engineer with 9 years of experience in Software; key skills: REST APIs, Terraform, Feature Engineering; 1/4 roles in tech. Strong engagement and tech background align with JD."
+CAND_0053064,96,0.048546,"Civil Engineer with 1 years of experience in Software; key skills: GCP, Apache Flink, Statistical Modeling; 1/1 roles in tech. Strong engagement and tech background align with JD."
+CAND_0075252,97,0.048447,"Mechanical Engineer with 4 years of experience in Software; key skills: Redux, Java, Six Sigma; scored 30/100 on BentoML assessment; GitHub activity 39/100; 2/2 roles in tech. Concerns: not marked open to work, interview completion rate 37%."
+CAND_0025112,98,0.048422,"Operations Manager with 4 years of experience in Software; key skills: Six Sigma, Go, Redux; scored 32/100 on Data Science assessment. Strong engagement and tech background align with JD."
+CAND_0066453,99,0.048372,"Civil Engineer with 7 years of experience in Software; key skills: Agile, Vue.js, Snowflake; GitHub activity 45/100; 3/4 roles in tech. Concerns: not marked open to work, notice period 90 days."
+CAND_0009452,100,0.048371,"Mechanical Engineer with 10 years of experience in Paper Products; key skills: Salesforce CRM, Django, Redux; 2/4 roles in tech. Concerns: not marked open to work, interview completion rate 37%."
