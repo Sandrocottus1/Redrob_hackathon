@@ -1,0 +1,48 @@
+team_name: "YOUR_REGISTERED_TEAM_NAME"
+
+team_members:
+  - name: "Aryan Yadav"
+    email: "10aryanyadav01@gmail.com"
+    institute: "NIT Silchar"
+    graduation_year: 2026
+
+    - name: "Dev Jaiswal"
+    email: "jaiswaldev479@gmail.com"
+    institute: "NIT Silchar"
+    graduation_year: 2026
+  
+primary_contact:
+  name: "Aryan"
+  email: "10aryanyadav01@gmail.com"
+  phone: "9555265752"
+
+github_repository: "https://github.com/Sandrocottus1/Redrob_hackathon"
+
+sandbox_link: "https://huggingface.co/spaces/Aryan0205/redrob-ranker"
+
+ai_tools_used:
+  - Claude
+  - GitHub Copilot
+
+compute_environment: "Google Colab (T4 GPU), Python 3.12. Local dev on Windows 11, AMD Ryzen 3 3250U, 8GB RAM."
+
+reproduction_command: "python -m solution.main --candidates ./India_runs_data_and_ai_challenge/candidates.jsonl.gz --out ./submission.csv"
+
+methodology_summary: |
+  Two-stage hybrid retrieval and talent-aware ranking pipeline.
+  Stage 1 - Hybrid Retrieval: Candidate profiles encoded using
+  sentence-transformers/all-MiniLM-L6-v2. FAISS flat index for
+  semantic search combined with BM25Okapi for keyword matching.
+  Weighted hybrid score (92% semantic, 8% BM25) retrieves top
+  1500 candidates from 100K pool.
+  Stage 2 - Talent-Aware Ranking: 8 signals weighted to prioritise
+  objective talent evidence: semantic JD match (28%), skill assessment
+  scores (25%), GitHub activity (12%), verified signals (10%),
+  career progression (8%), engagement quality (8%), experience (5%),
+  notice period (4%). Multipliers penalise honeypots, irrelevant
+  titles, and buzzword-only profiles. Scores enforced monotonically
+  non-increasing. Per-candidate reasoning generated with specific
+  facts, JD connection, and honest concerns.
+
+challenge: "Intelligent Candidate Discovery & Ranking"
+submission_version: 1sub
