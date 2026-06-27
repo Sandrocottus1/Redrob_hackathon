@@ -19,7 +19,6 @@ def r_c(c_l, j_s, f_w, h_s=None):
         s += f_w.get("avl", 0) * f.availability_score(c)
         s += f_w.get("ver", 0) * f.verified_signals(c)
         s += f_w.get("exp", 0) * f.e_f_s(c)
-        s += f_w.get("not", 0) * f.n_p_s(c)
 
         # Multipliers
         s *= f.title_relevance(c)
