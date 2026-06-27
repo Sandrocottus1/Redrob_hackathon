@@ -73,30 +73,41 @@ def r_p(o_p, d_w, b_w, r_k, r_p_k):
     p   = dl.p_c_f(cfg.c_j, cfg.c_j_g)
     c   = dl.l_c(p)
     j   = dl.l_j_t(cfg.j_t)
-    j_s = e_j_s(j)
+    
+    # AUGMENT JD with explicit tech terms to pull better candidates
+    j_augmented = j + """
+    Software Engineer Backend Developer Python Developer Java Developer
+    Machine Learning Engineer AI Engineer NLP Engineer Data Scientist
+    Full Stack Developer DevOps Engineer Cloud Engineer SDE SWE
+    REST API Docker Kubernetes React Node.js SQL MongoDB
+    Deep Learning LLM Computer Vision Natural Language Processing
+    GitHub coding programming algorithms data structures
+    fresher 2026 graduate NIT IIT B.Tech computer science
+    """
+    
+    j_s = e_j_s(j)  # keep original JD for skill matching
     t   = [tb.b_c_t(x) for x in c]
 
     h   = rt.HybridRetriever(cfg.d_m)
     h.fit(t)
-    i_l, h_s = h.retrieve(j, r_k, r_p_k, d_w, b_w)
+    i_l, h_s = h.retrieve(j_augmented, r_k, r_p_k, d_w, b_w)  # use augmented JD
     p_c  = [c[i] for i in i_l]
     p_hs = h_s[np.array(i_l)]
     r    = rk.r_c(p_c, j_s, cfg.f_w, h_s=p_hs)
 
-    # hard filter — remove clearly irrelevant titles before top 100 cut
+    # hard filter
     irrelevant_titles = ["civil engineer", "mechanical engineer", "hr manager",
                          "operations manager", "sales executive", "graphic designer",
-                         "accountant", "marketing manager", "project manager",
-                         "supply chain", "recruiter", "finance"]
+                         "accountant", "marketing manager", "supply chain",
+                         "recruiter", "customer support", "business analyst"]
     r_filtered = [x for x in r if not any(
         t in x[2].get("profile", {}).get("current_title", "").lower()
         for t in irrelevant_titles
     )]
 
-    # if filtered list has < 100, fall back to original
     if len(r_filtered) >= 100:
         r = r_filtered
-    
+
     r = r[:cfg.f_t_k]
     r = e_m_s(r)
     w_s(r, o_p)

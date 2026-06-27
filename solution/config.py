@@ -11,8 +11,8 @@ d_o   = r_d / "submission.csv"
 
 d_m = "sentence-transformers/all-MiniLM-L6-v2"
 
-r_k   = 3000
-r_p_k = 1500
+r_k   = 5000
+r_p_k = 3000
 f_t_k = 100
 
 d_w = 0.92
