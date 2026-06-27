@@ -19,12 +19,15 @@ d_w = 0.92
 b_w = 0.08
 
 f_w = {
-    "sem": 0.28,
-    "ass": 0.25,
-    "git": 0.12,
-    "ver": 0.10,
-    "car": 0.08,
-    "eng": 0.08,
-    "exp": 0.05,
-    "not": 0.04,
+    "sem": 0.25,  # semantic JD match
+    "ass": 0.20,  # assessment scores
+    "git": 0.10,  # github activity
+    "car": 0.07,  # career progression
+    "eng": 0.10,  # engagement (icr, oar, response rate/time)
+    "mkt": 0.10,  # market validation (views, saves, connections)
+    "rec": 0.08,  # recency (last active, signup tenure)
+    "avl": 0.05,  # availability (open to work, notice, mode, relocate)
+    "ver": 0.03,  # verified signals (email, phone, linkedin, salary, completeness)
+    "exp": 0.01,  # years of experience
+    "not": 0.01,  # notice period (already in avl but kept separate)
 }
