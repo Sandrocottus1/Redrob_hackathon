@@ -75,13 +75,29 @@ def r_p(o_p, d_w, b_w, r_k, r_p_k):
     j   = dl.l_j_t(cfg.j_t)
     j_s = e_j_s(j)
     t   = [tb.b_c_t(x) for x in c]
+
     h   = rt.HybridRetriever(cfg.d_m)
     h.fit(t)
     i_l, h_s = h.retrieve(j, r_k, r_p_k, d_w, b_w)
     p_c  = [c[i] for i in i_l]
     p_hs = h_s[np.array(i_l)]
     r    = rk.r_c(p_c, j_s, cfg.f_w, h_s=p_hs)
-    r    = r[:cfg.f_t_k]
-    r    = e_m_s(r)
+
+    # hard filter — remove clearly irrelevant titles before top 100 cut
+    irrelevant_titles = ["civil engineer", "mechanical engineer", "hr manager",
+                         "operations manager", "sales executive", "graphic designer",
+                         "accountant", "marketing manager", "project manager",
+                         "supply chain", "recruiter", "finance"]
+    r_filtered = [x for x in r if not any(
+        t in x[2].get("profile", {}).get("current_title", "").lower()
+        for t in irrelevant_titles
+    )]
+
+    # if filtered list has < 100, fall back to original
+    if len(r_filtered) >= 100:
+        r = r_filtered
+    
+    r = r[:cfg.f_t_k]
+    r = e_m_s(r)
     w_s(r, o_p)
     r_v(o_p)

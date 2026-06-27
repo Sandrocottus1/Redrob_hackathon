@@ -190,17 +190,23 @@ def career_progression(c) -> float:
 def title_relevance(c) -> float:
     title = c.get("profile", {}).get("current_title", "").lower()
     exp   = float(c.get("profile", {}).get("years_of_experience", 0) or 0)
+    
     relevant   = ["backend", "software", "developer", "engineer", "python",
                   "fullstack", "sde", "programmer", "data", "ml", "ai",
-                  "machine learning", "nlp", "devops", "cloud", "frontend", "search"]
+                  "machine learning", "nlp", "devops", "cloud", "frontend", 
+                  "search", "java", "senior"]
     irrelevant = ["operations", "accountant", "graphic", "mechanical", "civil",
                   "sales", "customer support", "hr", "recruiter", "designer",
                   "manager", "business analyst", "finance", "marketing",
-                  "legal", "supply chain", "logistics"]
+                  "legal", "supply chain", "logistics", "project manager"]
+
     score = 1.0
-    if any(w in title for w in relevant):   score *= 1.3
-    if any(w in title for w in irrelevant): score *= 0.15
-    if exp > 5: score *= max(0.2, 1.0 - (exp - 5) / 15.0)
+    if any(w in title for w in relevant):
+        score *= 1.3
+    if any(w in title for w in irrelevant):
+        score *= 0.05  # changed from 0.15 to 0.05 — much harder penalty
+    if exp > 5:
+        score *= max(0.2, 1.0 - (exp - 5) / 15.0)
     return min(score, 1.0)
 
 def honeypot_penalty(c) -> float:
