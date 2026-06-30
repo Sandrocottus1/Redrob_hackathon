@@ -195,16 +195,17 @@ def title_relevance(c) -> float:
                   "fullstack", "sde", "programmer", "data", "ml", "ai",
                   "machine learning", "nlp", "devops", "cloud", "frontend", 
                   "search", "java", "senior"]
-    irrelevant = ["operations", "accountant", "graphic", "mechanical", "civil",
-                  "sales", "customer support", "hr", "recruiter", "designer",
-                  "manager", "business analyst", "finance", "marketing",
-                  "legal", "supply chain", "logistics", "project manager"]
+    irrelevant = ["operations","accountant","graphic","mechanical","civil","sales",
+              "customer support","hr","recruiter","designer","manager",
+              "business analyst","finance","marketing","legal",
+              "supply chain","logistics","project manager","product manager",
+              "scrum master","program manager"]
 
     score = 1.0
     if any(w in title for w in relevant):
         score *= 1.3
     if any(w in title for w in irrelevant):
-        score *= 0.05  # changed from 0.15 to 0.05 — much harder penalty
+        score *= 0.02  
     if exp > 5:
         score *= max(0.2, 1.0 - (exp - 5) / 15.0)
     return min(score, 1.0)

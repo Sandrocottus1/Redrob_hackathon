@@ -96,10 +96,12 @@ def r_p(o_p, d_w, b_w, r_k, r_p_k):
     r    = rk.r_c(p_c, j_s, cfg.f_w, h_s=p_hs)
 
     # hard filter
-    irrelevant_titles = ["civil engineer", "mechanical engineer", "hr manager",
-                         "operations manager", "sales executive", "graphic designer",
-                         "accountant", "marketing manager", "supply chain",
-                         "recruiter", "customer support", "business analyst"]
+    irrelevant_titles = ["project manager", "product manager", "program manager",
+                     "scrum master", "delivery manager", "civil engineer",
+                     "mechanical engineer", "hr manager", "operations manager",
+                     "sales executive", "graphic designer", "accountant",
+                     "marketing manager", "supply chain", "recruiter",
+                     "customer support", "business analyst"]
     r_filtered = [x for x in r if not any(
         t in x[2].get("profile", {}).get("current_title", "").lower()
         for t in irrelevant_titles
